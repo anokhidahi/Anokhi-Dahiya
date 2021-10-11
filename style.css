@@ -72,7 +72,7 @@ p {
     text-align: center;
     font-size: 50px;
     background-color: blueviolet;
-    height: 800px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
 }
@@ -108,4 +108,53 @@ p {
 
 a {
     text-decoration: none;
+}
+
+#apps {
+    background-color: royalblue;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#games {
+    background-color: palegreen;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#chatbot {
+    background-color: royalblue;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#game1,
+#game2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: transform .2s;
+}
+
+#game1:hover {
+    transform: scale(0.9);
+}
+
+#game2:hover {
+    transform: scale(0.9);
+}
+
+#contact {
+    background-color: fuchsia;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
 }
