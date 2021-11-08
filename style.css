@@ -10,19 +10,15 @@ body {
 }
 
 #welcome {
-    position: absolute;
     text-align: center;
     overflow: hidden;
     color: floralwhite;
     bottom: 0px;
+    margin-top: 0;
     opacity: 0.83;
     display: table;
     width: 100%;
     height: 800px;
-    z-index: 9px;
-    top: 0px;
-    right: 0px;
-    left: 0px;
     background: linear-gradient(yellow 0%, red 100%);
 }
 
@@ -131,4 +127,5 @@ p {
     top: 0;
     font-family: 'Italianno', cursive;
     z-index: 99999;
+    margin-top: 0;
 }
